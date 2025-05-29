@@ -1,7 +1,7 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("29000114", "0"))
+    CHID = int(getenv("CHID", "0")) 
     API_HASH = getenv("78d04fae6c5d8416e817ee453c5cac72", "")
     BOT_TOKEN = getenv("7537019943:AAF2N4MG-XQiN7NydSnEGEqN5e3a_wIkTGU", "")
     # Your Force Subscribe Channel Id Below 
@@ -9,6 +9,5 @@ class Config:
     # Admin Or Owner Id Below
     SUDO = list(map(int, getenv("5841888496", "").split()))
     MONGO_URI = getenv("mongodb+srv://crownexchangeho1:<0aJjVDG5sQxYNFDD>@cluster0.bnp4yk4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
-    
-cfg = Config()
+    cfg = Config()
 
