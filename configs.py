@@ -1,7 +1,7 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "0"))
+    API_ID = int(getenv("29000114", "0"))
     API_HASH = getenv("78d04fae6c5d8416e817ee453c5cac72", "")
     BOT_TOKEN = getenv("7537019943:AAF2N4MG-XQiN7NydSnEGEqN5e3a_wIkTGU", "")
     # Your Force Subscribe Channel Id Below 
