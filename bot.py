@@ -1,7 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram import filters, Client, errors, enums
 from pyrogram.errors import UserNotParticipant
@@ -55,8 +51,8 @@ async def op(_, m :Message):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/ADPROMOWORLD"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/ADPROMOWORLD")
         ]]
     )
     add_user(m.from_user.id)
@@ -74,8 +70,8 @@ async def chk(_, cb : CallbackQuery):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/ADPROMOWORLD"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/ADPROMOWORLD")
         ]]
     )
     add_user(m.from_user.id)
